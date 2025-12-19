@@ -1,6 +1,4 @@
-/* =====================================================
-   GLOBAL RESET
-===================================================== */
+/* GLOBAL RESET */
 
 * {
   box-sizing: border-box;
@@ -10,14 +8,12 @@ html,
 body {
   height: 100%;
   margin: 0;
-  overflow: hidden; /* 🚫 no outer scroll */
+  overflow: hidden; /* no outer scroll */
   font-family: Arial, sans-serif;
   background: #f7f7f7;
 }
 
-/* =====================================================
-   MAIN LAYOUT
-===================================================== */
+/* MAIN LAYOUT */
 
 main.layout {
   display: grid;
@@ -26,11 +22,9 @@ main.layout {
   width: 100vw;
 }
 
-/* =====================================================
-   MAP PANEL
-===================================================== */
+/* MAP PANEL */
 
-#mapPanel {
+#map-panel {
   position: relative;
   padding: 0;
 }
@@ -55,7 +49,7 @@ main.layout {
   padding: 8px 14px;
   border-radius: 6px;
 
-  box-shadow: 0 2px 6px rgba(0,0,0,0.25);
+  box-shadow: 0 2px 6px rgb(0 0 0 / 25%);
 }
 
 /* Floating instruction card */
@@ -75,29 +69,25 @@ main.layout {
   line-height: 1.35;
   color: #333;
 
-  box-shadow: 0 2px 6px rgba(0,0,0,0.25);
+  box-shadow: 0 2px 6px rgb(0 0 0 / 25%);
 }
 
-/* =====================================================
-   SIDE PANEL (ONLY SCROLL AREA)
-===================================================== */
+/* SIDE PANEL (ONLY SCROLL AREA) */
 
-.sidePanel {
+.side-panel {
   padding: 1rem;
-  overflow-y: auto; /* ✅ single scrollbar */
+  overflow-y: auto; /* single scrollbar */
   background: #f7f7f7;
 }
 
-/* =====================================================
-   FORM SECTIONS
-===================================================== */
+/* FORM SECTIONS */
 
 section {
   background: white;
   padding: 1rem;
   margin-bottom: 1.25rem;
   border-radius: 6px;
-  box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+  box-shadow: 0 1px 3px rgb(0 0 0 / 5%);
 }
 
 label {
@@ -121,12 +111,10 @@ textarea {
   min-height: 80px;
 }
 
-/* =====================================================
-   BUTTONS
-===================================================== */
+/* BUTTONS */
 
 button {
-  background: #000;          /* ✅ black primary buttons */
+  background: #000;          /* black primary buttons */
   color: #fff;
   border: none;
   border-radius: 4px;
@@ -153,9 +141,7 @@ button:hover {
   background: #d5d5d5;
 }
 
-/* =====================================================
-   STAR RATING
-===================================================== */
+/* STAR RATING */
 
 .stars {
   font-size: 0.9rem;
@@ -166,9 +152,7 @@ button:hover {
   margin-right: 6px;
 }
 
-/* =====================================================
-   DISCLAIMER / CONFIRMATION
-===================================================== */
+/* DISCLAIMER / CONFIRMATION */
 
 .disclaimer {
   font-size: 0.85rem;
@@ -176,9 +160,7 @@ button:hover {
   margin-top: 0.5rem;
 }
 
-/* =====================================================
-   LEAFLET POPUP → REPORT CARD STYLE
-===================================================== */
+/* LEAFLET POPUP → REPORT CARD STYLE */
 
 .leaflet-popup-content {
   margin: 8px;
@@ -187,7 +169,7 @@ button:hover {
 
 .leaflet-popup-content-wrapper {
   border-radius: 6px;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.25);
+  box-shadow: 0 2px 8px rgb(0 0 0 / 25%);
 }
 
 .leaflet-popup-tip {
@@ -198,9 +180,7 @@ button:hover {
   margin-bottom: 6px;
 }
 
-/* =====================================================
-   BLACK LOCATOR MARKER
-===================================================== */
+/* BLACK LOCATOR MARKER */
 
 .black-marker {
   color: black;
