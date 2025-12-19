@@ -2,6 +2,8 @@ Inside the Walls
 
 Inside the Walls is a community-driven web application designed to surface renters’ lived experiences inside residential spaces. The platform allows users to submit, view, and share qualitative and quantitative reports about rental addresses across Philadelphia, helping prospective renters make more informed housing decisions based on real experiences rather than marketing claims alone.
 
+This application is publicly accessible at https://oindriza.github.io/engagement-project-Inside-the-Walls/.
+
 
 Motivation
 
